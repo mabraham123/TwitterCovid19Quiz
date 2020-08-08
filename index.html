@@ -11,6 +11,7 @@
 <script src="js/scripts.js"></script>
   </head>
   <body>
+    <script>init()</script>
 <!--Navbar Start-->
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
     <strong><a class="navbar-brand" href="#">Covid Twitter Quiz</a></strong>
@@ -34,16 +35,41 @@
   <br>
   <div id="intro">
     <h1>About</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Been spending a lot of time on Twitter? Have you been bombarded with COVID-19 tweets? Feel like you now have a lot of useless information and nothing to do with it?
+    <br><strong>Well this quiz is for you!</strong><br>
+    Put all of your new twitter knowledge to the test, answer 10 questions about COVID tweets and see how well you do compared to your friends!<br>
+    All answers are taken from Twitter in real time so the answers may be different tomorrow! <br> <strong>Good Luck!</strong></p>
   </div>
 
   <div id="instructions">
     <h1>How to play</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>It's a Quiz, <br>Just answer the fucking questions - its not that deep <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 
   <div id="game">
-    <!--Game-->
+    <h1> Play Now</h1>
+    <div class="container">
+      <div class="col">
+        <div class="row">
+          <button class="btn btn-primary" id="play-btn" onclick="runQuiz()">Play</button>
+        </div>
+
+      </div>
+
+      <h3 id="q-number"></h3>
+      <h4 id="question"></h4>
+
+      <div class="col" id="game1">
+        <div class="row">
+          <button class="btn btn-primary" id="op1-btn" onclick="">Dumb</button>
+          <button class="btn btn-primary" id="op2-btn" onclick="">Stupid</button>
+        </div>
+        <div class="row">
+          <button class="btn btn-primary" id="op3-btn" onclick="">Or</button>
+            <button class="btn btn-primary" id="op4-btn" onclick="">Dumb</button>
+        </div>
+      </div>
+    </div>
   </div>
 
 
