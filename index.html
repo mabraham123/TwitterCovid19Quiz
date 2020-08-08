@@ -9,9 +9,9 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
+<script src="js/questions.js"></script>
   </head>
-  <body>
-    <script>init()</script>
+  <body onload="init()">
 <!--Navbar Start-->
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
     <strong><a class="navbar-brand" href="#">Covid Twitter Quiz</a></strong>
@@ -61,12 +61,12 @@
 
       <div class="col" id="game1">
         <div class="row">
-          <button class="btn btn-primary" id="op1-btn" onclick="">Dumb</button>
-          <button class="btn btn-primary" id="op2-btn" onclick="">Stupid</button>
+          <button class="btn btn-primary" id="op1-btn" onclick="checkAnswer('op1-btn')">Dumb</button>
+          <button class="btn btn-primary" id="op2-btn" onclick="checkAnswer('op2-btn')">Stupid</button>
         </div>
         <div class="row">
-          <button class="btn btn-primary" id="op3-btn" onclick="">Or</button>
-            <button class="btn btn-primary" id="op4-btn" onclick="">Dumb</button>
+          <button class="btn btn-primary" id="op3-btn" onclick="checkAnswer('op3-btn')">Or</button>
+            <button class="btn btn-primary" id="op4-btn" onclick="checkAnswer('op4-btn')">Dumb</button>
         </div>
       </div>
     </div>

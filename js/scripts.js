@@ -1,16 +1,23 @@
 var questions = [];
+var questionCounter = 0;
 
 function init() {
-
+  initQuestions();
 }
 
-function setQuestions() {
-  
+function getQuestion() {
+  var r = Math.floor(Math.random() * questions.length);
+  var question = questions[r];
+  questions.splice(r,1);
+  var qarray = question.split(',');
+  return qarray[0];
 }
 
 function runQuiz () {
   $("#play-btn").hide()
-  displayQuestion("Are you ... ?",1)
+  var q = getQuestion();
+  questionCounter++;
+  displayQuestion(q ,questionCounter)
 }
 
 function displayQuestion (question, qNumber) {
@@ -22,6 +29,10 @@ function displayQuestion (question, qNumber) {
   questionElement.innerHTML = question;
 
   document.getElementById("game1").style.display= "block";
+}
 
-
+function checkAnswer(btn) {
+  var userAns = document.getElementById(btn).innerHTML;
+  
+  runQuiz();
 }
