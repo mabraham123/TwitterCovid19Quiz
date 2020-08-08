@@ -1,0 +1,10 @@
+How many tweets are there which mention both coronavirus and cats?, coronavirus, cats
+How many tweets are there with coronavirus and the germ emoji?
+How many tweets are there which mention both coronavirus and dogs?, coronavirus, dogs
+How many idiots have tweeted with the hashtag #dontwearamask ?, #dontwearamask
+How many people have tweeted with the hashtag #dogsinmasks ? #dogsinmasks
+How many people have used #covidcangoaway ?, #covidcangoaway
+How many tweets are there which mention both coronavirus and fridges?, coronavirus, fridge
+How many tweets are there which mention both coronavirus and burps?, coronavirus, burps
+How many tweets has donald trump made about coronavirus? coronavirus, @realDonaldTrump
+How many people have tweeted about coronavirus and Nicola Sturgeon?, coronavirus, Nicola Sturgeon
