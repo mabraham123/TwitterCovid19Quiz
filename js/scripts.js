@@ -1,6 +1,11 @@
+var questions = [];
 
 function init() {
 
+}
+
+function setQuestions() {
+  
 }
 
 function runQuiz () {
